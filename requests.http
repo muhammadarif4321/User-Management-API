@@ -1,0 +1,26 @@
+### GET ALL
+GET http://localhost:5053/api/users
+
+### GET BY ID
+GET http://localhost:5053/api/users/2
+
+### CREATE USER
+POST http://localhost:5053/api/users
+Content-Type: application/json
+
+{
+  "name": "Arif-2",
+  "email": "arif@email.com"
+}
+
+### UPDATE USER
+PUT http://localhost:5053/api/users/2
+Content-Type: application/json
+
+{
+  "name": "Arif Update",
+  "email": "arifupdate@email.com"
+}
+
+### DELETE USER
+DELETE http://localhost:5053/api/users/3
